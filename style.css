@@ -1,0 +1,54 @@
+body {
+    background-color: #FBDACD; 
+    font-family: 'Mali', cursive;
+}
+
+h1 {
+    color: #d18034;
+    text-align: center;
+}
+
+.top {
+    background-color: white;
+}
+
+.tenor-gif-embed {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonbrownies, .buttoncheese, .buttonmad {
+    background:url(images/smore.png) no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    cursor: pointer; 
+    border: none;
+    width: 150px;
+    height: 150px;
+    font-size: 1em;
+    color: white;
+}
+
+
+.buttonbrownies:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+.buttoncheese:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+.buttonmad:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+a { 
+    text-decoration: none;
+    font-family: 'Mali', cursive;
+    color: #795959;
+}
+
+a:hover {
+    color: white;
+}
