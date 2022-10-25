@@ -1,6 +1,20 @@
 body {
     background-color: #FBDACD; 
     font-family: 'Mali', cursive;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+.header {
+    display: flex;
+    background-color: white;
+    color: #d18034;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    height: 60px;
 }
 
 h1 {
@@ -8,13 +22,13 @@ h1 {
     text-align: center;
 }
 
-.top {
-    background-color: white;
+h3 {
+    text-align: center;
 }
-
-.tenor-gif-embed {
-    margin-left: auto;
-    margin-right: auto;
+.pic {
+   display: flex;
+   justify-content: center;
+   padding: 0;
 }
 
 .buttonbrownies, .buttoncheese, .buttonmad {
@@ -29,6 +43,13 @@ h1 {
     color: white;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
 
 .buttonbrownies:hover {
     opacity: 0.75;
@@ -47,8 +68,51 @@ a {
     text-decoration: none;
     font-family: 'Mali', cursive;
     color: #795959;
+    display: block;
 }
 
 a:hover {
     color: white;
+}
+
+.contentc {
+    display: flex;
+    padding-left: 100px;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.cleft {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+.cd {  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.cright {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe8d3;
+    padding: 20px;
+}
+
+.creditc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creditlinks {
+    list-style: none;
+    flex-direction: row;
+    padding-left: 20px;
 }
